@@ -20,9 +20,12 @@ Additional Dependencies and Setup Requirements -Python Dependencies -MySQL Datab
 
 Contributing
 
-(Project Overview) This project is a demonstration of your skills and knowledge as a Software Engineer in Flask, MySQL, and Git concepts. It includes tasks that simulate real-world scenarios and evaluate your proficiency in these technologies.
+[Project Overview]
+This project is a demonstration of your skills and knowledge as a Software Engineer in Flask, MySQL, and Git concepts. It includes tasks that simulate real-world scenarios and evaluate your proficiency in these technologies.
 
-(1: Flask API Development) a. Create a new Flask application.
+[1: Flask API Development]
+
+a. Create a new Flask application.
 
 b. Define a route /hello that returns the string "Hello, World!" when accessed.
 
@@ -34,7 +37,9 @@ e. Create a route /users/ that retrieves a specific user's details from the data
 
 f. Add error handling to handle cases when a user or resource is not found.
 
-( 2: Database Interaction) a. Create a MySQL database with the name "users."
+[ 2: Database Interaction]
+
+a. Create a MySQL database with the name "users."
 
 b. Design a table "users" with the following columns:
 
@@ -60,7 +65,7 @@ Navigate to the project directory:
 
 bash cd your-project
 
-(Install project dependencies:)
+[Install project dependencies:]
 
 bash pip install -r requirements.txt
 
@@ -80,7 +85,7 @@ This section provides a clear understanding of the database schema and how to po
 
 Steps to Fetch Template To fetch the users.html template in your Flask application, you need to ensure that your Flask application is set up correctly, and the template file is located in the appropriate directory. Here are the general steps to fetch the users.html template:
 
-(Create a Templates Directory:)
+[Create a Templates Directory:]
 
 First, ensure that you have a directory named templates in the same directory as your Flask application script (typically, this is where Flask expects to find template files). Place users.html in the Templates Directory:
 
@@ -148,7 +153,9 @@ Host: Your MySQL server's host or IP address. User: Your MySQL username. Passwor
 
 These additional dependencies and setup requirements are crucial for a successful setup and usage of your Flask application. Customize this section to match your specific project dependencies and instructions.
 
-(Contributing) To contribute to this project, please keep the following guidelines in mind:
+[Contributing]
+
+To contribute to this project, please keep the following guidelines in mind:
 
 Ensure that your code adheres to our coding standards and conventions. Write clear and informative commit messages. Respect the existing project structure and organization. If you're fixing a bug or adding a new feature, provide tests if applicable. Be respectful and collaborative in all communication and interactions within the project. We welcome contributions from the community and appreciate your effort to improve this project. If you have any questions or need assistance, feel free to reach out.
 
